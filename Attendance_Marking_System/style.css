@@ -1,0 +1,218 @@
+*{
+	margin: 0px;
+	padding-left: 10px;
+}
+body{
+	font-size: 150%;
+	margin: 0;
+	padding-left: 450px;
+	
+	
+	
+}
+
+.header{
+	position: absolute;
+	top: 10%;
+	left: 100%
+
+	transform: translate(-50%,-50%);
+	width: 450px;
+	height: 400px;
+	box-sizing: border-box;
+	background: transparent;
+	box-shadow: 0 10px 20px rgba(0,0,0,1.5);
+	border-radius: 5px;
+	transition: .5;
+}
+
+h1{
+	margin: 0;
+	font-size: 120;
+	padding: 0 0 20px;
+	padding-top: 20px;
+	color: #262626;
+	text-align: center;
+}
+
+
+/*form{
+	width: 30%;
+	margin:0px auto;
+	padding:10px;
+	
+	border-radius: 0px 0px 10px 10px;
+}*/
+
+.input-group{
+	position: absolute;
+	top: 10%;
+	left: 100%
+
+	transform: translate(-50%,-50%);
+	width: 450px;
+	height: 450px;
+	box-sizing: border-box;
+	background: transparent;
+	box-shadow: 0 10px 20px rgba(0,0,0,.5);
+	border-radius: 5px;
+	transition: .5;
+	background: transparent;
+	/*margin: 10px 0px 10px 0px;*/
+}
+
+.input-group2{
+	position: absolute;
+	top: 20%;
+	left: 100%
+
+	transform: translate(-50%,-50%);
+	width: 450px;
+	height: 520px;
+	box-sizing: border-box;
+	
+	box-shadow: 0 10px 20px rgba(0,0,0,.5);
+	border-radius: 5px;
+	transition: .5;
+	background: transparent;
+	/*margin: 10px 0px 10px 0px;*/
+}
+
+.input-group label{
+	padding-bottom: 20px;     /* */
+	display:block;
+	text-align:left;
+	padding-right:20px;
+	padding: 30px;
+}
+
+.input-group2 label{
+	padding-bottom: 20px;     /* */
+	display:block;
+	text-align:left;
+	padding-right:20px;
+	padding: 30px;
+	color: white;
+}
+
+.input-group input{
+	height: 30px;
+	width:60%;
+	padding:70px 30px;
+	font-size:16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.input-group2 input{
+	height: 30px;
+	width:60%;
+	padding:70px 30px;
+	font-size:16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+
+.input-group input[type="text"],
+.input-group input[type="password"]
+{
+	border: none;
+	padding-bottom: 40px;
+	/*padding-left: 60px;*/
+	border-bottom: 2px solid #262626;
+	outline: none;
+	background: transparent;
+	font-size: 16px;
+	height: 40px;
+	padding: 0px;
+	width: 100%;
+
+	
+}
+
+.input-group2 input[type="text"],
+.input-group2 input[type="password"]
+{
+	border: none;
+	padding-bottom: 40px;
+	/*padding-left: 60px;*/
+	border-bottom: 2px solid #262626;
+	outline: none;
+	background: transparent;
+	font-size: 16px;
+	height: 40px;
+	padding: 0px;
+	width: 100%;
+
+	
+}
+::placeholder
+{
+	color: rgba(0,0,0,.5);
+}
+
+::value
+{
+	padding-bottom: 10px;
+	text-align: center;
+}
+.align
+{
+	padding-left: 10px;
+	background: transparent;
+	width: 80%;
+}
+
+
+.input-group button[type="submit"]
+{
+	border :none;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	background: #ed292a;
+	left: 40px;
+	color: #262626;
+	border-radius: 20px;
+	width: 80%;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	text-align:center;
+}
+
+.input-group2 button[type="submit"]
+{
+	border :none;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	background: #ed292a;
+	left: 40px;
+	color: #262626;
+	border-radius: 20px;
+	width: 80%;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	text-align:center;
+}
+
+.btn{
+	padding-top: 30px;
+	padding-left: 10px;
+	position: relative;
+}
+
+.error{
+	width: 80%;
+	margin:0px auto;
+	padding:10px;
+	border: none;
+	font-size: 20px;
+	color: #262626;
+	background:transparent;
+	border-radius: 5px;
+	text-align: center;
+}
